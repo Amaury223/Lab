@@ -3,10 +3,10 @@
 -Email: jaimeamauryhz@gmail.com
 
 ## Actividad 1
--Programa 1 
--Programa 2 
--Programa 3
-
+-p01_HolaMundo.java
+-p02_AreaCirculo 
+-p03_AreaTriangulo
+-p04_PagaTrabajador
 ## Actividad 2
 -Programa 4 
 -Programa 5
