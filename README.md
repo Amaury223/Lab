@@ -8,6 +8,8 @@
 -p03_AreaTriangulo
 -p04_PagaTrabajador
 ## Actividad 2
--Programa 4 
--Programa 5
-
+-p05_OperacionesMatematicas
+-p06_PromedioCalificaciones
+-p07_OperadoresAsignacion2
+-p08_FuncionesTrigonometricas2
+-p09_DividirEnCifras
