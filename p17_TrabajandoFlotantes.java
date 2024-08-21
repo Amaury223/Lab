@@ -31,6 +31,7 @@ public class p17_TrabajandoFlotantes {
         System.out.println("\nUso MIN_VALUE y MAX_VALUE conocer los rangos de los números flotantes: ");
 
         System.out.println(String.format("\nTipo: float Min  : %.1e Max: %.1e",Float.MIN_VALUE, Float.MAX_VALUE));
+        
         System.out.println(String.format("\nTipo: double Min : %.1e Max: %.1e",Double.MIN_VALUE, Double.MAX_VALUE));
     }
 }

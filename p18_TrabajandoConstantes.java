@@ -11,6 +11,7 @@ public class p18_TrabajandoConstantes {
         System.out.printf("velocidad / 2  : %d \n", VELOCIDADLUZ / 2);
         System.out.printf("tasa           : %.2f \n", TASA);
         System.out.printf("separador      : %d \n", SEPARADOR);
+        
     }
     
 }

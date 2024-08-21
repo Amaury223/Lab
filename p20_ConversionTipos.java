@@ -6,6 +6,7 @@ public class p20_ConversionTipos {
         double var2 = var1; // int a double
         float var3 = 123456.789f;
         double var4 = var3; // float a double
+        
         System.out.print("\033[H\033[2J"); System.out.flush();
         System.out.println(String.format("Implicita de int a double   : %d   -  %f",var1,var2));
         System.out.println(String.format("Implicita de float a double : %f   -  %f",var3,var4));

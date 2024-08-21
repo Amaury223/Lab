@@ -33,6 +33,7 @@ public class p16_trabajando_enteros {
         System.out.printf("horas, dias en formato hexadecimal  : %x - %x \n",horas, dias);
 
         System.out.println("\nUso MIN_VALUE y MAX_VALUE conocer los rangos de los números enteros: ");
+        
         System.out.println(String.format("\nTipo: byte Min:  %d Max   : %d",Byte.MIN_VALUE, Byte.MAX_VALUE));
         System.out.println(String.format("\nTipo: short Min: %d Max   : %d",Short.MIN_VALUE, Short.MAX_VALUE));
         System.out.println(String.format("\nTipo: int Min:   %d Max   : %d",Integer.MIN_VALUE, Integer.MAX_VALUE));
