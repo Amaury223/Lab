@@ -9,6 +9,7 @@ public class p11_CalcularAngulo {
         System.out.print("Ingresa el segundo angulo del triángulo: ");angulo2 = obj.nextInt();
 
         angulo3 = 180 - (angulo1 + angulo2);
+        
         System.out.println("El angulo 3 es: " + angulo3);
         
     }

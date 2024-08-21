@@ -5,6 +5,7 @@ import java.util.Scanner;
 
         Scanner obj = new Scanner(System.in);
         double radio,altura,volumen;
+
         System.out.print("Ingresa el radio:  ");radio = obj.nextDouble();
         System.out.print("Ingresa la altura: ");altura = obj.nextDouble();
         volumen = Math.PI*(radio * radio) * altura;

@@ -11,5 +11,5 @@ public class p10_HipotenusaTriangulo {
         hipotenusa = Math.sqrt((longitud1 * longitud1) + (longitud2*longitud2));
         System.out.println("La Hipotenusa es: "+ hipotenusa);
        
-    }
+    } 
 }

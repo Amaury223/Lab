@@ -8,5 +8,6 @@ public class p14_CalculoTiempo {
         System.out.print(String.format("\nLos dias son %d",horas/24));
         System.out.print(String.format("\nLos minutos son %d",horas*60)); 
         System.out.print(String.format("\nLos Segundos son %d",horas*60*60)); 
+        
     }
 }
