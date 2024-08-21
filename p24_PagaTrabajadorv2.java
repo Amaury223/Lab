@@ -22,6 +22,6 @@ public class p24_PagaTrabajadorv2 {
             total = horas * paga;
 
 
-        System.out.printf("\nPago total: %.2f", total);
+        System.out.printf("\nPago total: %.2f. ", total);
         }
 }

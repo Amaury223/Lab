@@ -30,6 +30,6 @@ public class p23_ConvertirTemperatura {
         else
             System.out.println("\nAcaso estas .... loco");    
         
-        System.out.println("\nGracias por utilizar este programa");
+        System.out.println("\nGracias por utilizar este programa.");
     }
 }
