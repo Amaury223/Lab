@@ -47,3 +47,11 @@
 -p30_DiaSemana
 -p31_NumerosRomanos
 -p32_PagoEstacionamiento
+
+## Práctica 02 - Ejecución condicional
+-p33_NumerosConsecutivos
+-p34_NumeroMayor
+-p35_ContinentesMundo
+-p36_CompraPizza
+-p37_CalculoNotas
+-p38_AceptarEstudiante_v2
