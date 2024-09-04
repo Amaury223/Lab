@@ -55,9 +55,17 @@
 -p36_CompraPizza
 -p37_CalculoNotas
 -p38_AceptarEstudiante_v2
+
 ## Actividad 7 - Ejecución repetitiva - parte 1
 -p39_Numeros1a100
 -p40_Numeros100a1
 -p41_ProcesaCalificaciones
 -p42_TablaMultiplicar
 -p43_ConteoNumeros
+
+
+## Actividad 8 - Ejecución repetitiva parte 2
+-p44_ParesAscendente
+-p45_ImparesDescendente
+-p46_TablaConversion
+-p47_ConjeturaCollatz
