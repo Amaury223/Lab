@@ -75,3 +75,9 @@
 -p49_ParesDescendente
 -p50_ConversionTemperaturas
 -p51_SerieFibonaci
+
+## Actividad 10 - Ejecución repetitiva - parte 4
+-p57_TablasMultiplicar
+-p58_Piramide
+-p59_FactorialNumeros
+-p60_SumaTerminos
