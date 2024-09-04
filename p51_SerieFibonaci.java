@@ -32,6 +32,7 @@ public class p51_SerieFibonaci {
 
         System.out.println("Programa terminado.");
         
+        
     }
 
     // Método para imprimir los primeros n términos de la serie de Fibonacci
