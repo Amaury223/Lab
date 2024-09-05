@@ -76,6 +76,13 @@
 -p50_ConversionTemperaturas
 -p51_SerieFibonaci
 
+## Actividad 9 - Ejecución repetitiva - parte 3
+-p52_Numeros1aN
+-p53_NumerosNa1
+-p54_ArribaAbajo
+-p55_SumaParesImpares
+-p56_SumaPromedio
+
 ## Actividad 10 - Ejecución repetitiva - parte 4
 -p57_TablasMultiplicar
 -p58_Piramide
