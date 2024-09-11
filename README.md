@@ -99,4 +99,11 @@
 -p65_SistemaPapeleria
 
 ## Primer Examen 
--p65_SistemaPapeleria
+-ep01_PrimerExamenParcia
+
+## Actividad 11 - Funciones Parte 1
+-p66_PromedioNumeros
+-p67_ConversionTemperaturas
+-p68_SumaRango
+-p69_TablaMultiplicar
+-p70_CalificacionLetra
