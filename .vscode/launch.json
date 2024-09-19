@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p75_CuadroCaracter",
+            "request": "launch",
+            "mainClass": "p75_CuadroCaracter",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p74_Factorial",
+            "request": "launch",
+            "mainClass": "p74_Factorial",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p73_SumaParesImpares",
+            "request": "launch",
+            "mainClass": "p73_SumaParesImpares",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p72_SumaDigitos",
+            "request": "launch",
+            "mainClass": "p72_SumaDigitos",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p71_MayorTresNumeros",
+            "request": "launch",
+            "mainClass": "p71_MayorTresNumeros",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
             "name": "p69_TablaMultiplicar",
             "request": "launch",
             "mainClass": "p69_TablaMultiplicar",
