@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p80_Angulo",
+            "request": "launch",
+            "mainClass": "p80_Angulo",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p79_SumaMultiplos",
+            "request": "launch",
+            "mainClass": "p79_SumaMultiplos",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
             "name": "p75_CuadroCaracter",
             "request": "launch",
             "mainClass": "p75_CuadroCaracter",
