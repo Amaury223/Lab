@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p85_NombresEdades",
+            "request": "launch",
+            "mainClass": "p85_NombresEdades",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p84_PromedioArreglo",
+            "request": "launch",
+            "mainClass": "p84_PromedioArreglo",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p82_InicializaArregloCadenas",
+            "request": "launch",
+            "mainClass": "p82_InicializaArregloCadenas",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p81_InicializaArregloNumeros",
+            "request": "launch",
+            "mainClass": "p81_InicializaArregloNumeros",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
             "name": "p80_Angulo",
             "request": "launch",
             "mainClass": "p80_Angulo",
