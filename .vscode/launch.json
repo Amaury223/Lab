@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p89_ArregloAleatorios",
+            "request": "launch",
+            "mainClass": "p89_ArregloAleatorios",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p88_Aleatorios",
+            "request": "launch",
+            "mainClass": "p88_Aleatorios",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p87_ArregloTemperaturas",
+            "request": "launch",
+            "mainClass": "p87_ArregloTemperaturas",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p86_ArregloMostrar",
+            "request": "launch",
+            "mainClass": "p86_ArregloMostrar",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
             "name": "p85_NombresEdades",
             "request": "launch",
             "mainClass": "p85_NombresEdades",
