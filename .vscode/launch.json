@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "p97_Empleado04.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "p96_Empleado03.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "p95_Empleado02.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "p94_Empleado01.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p91_MayoresPromedio",
+            "request": "launch",
+            "mainClass": "p91_MayoresPromedio",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p90_Temperaturas",
+            "request": "launch",
+            "mainClass": "p90_Temperaturas",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
             "name": "p89_ArregloAleatorios",
             "request": "launch",
             "mainClass": "p89_ArregloAleatorios",

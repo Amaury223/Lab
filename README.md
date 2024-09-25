@@ -134,3 +134,15 @@
 -p87_ArregloTemperaturas
 -p88_Aleatorios
 -p89_ArregloAleatorios
+
+## Practica 06 – Arreglos
+-p90_Temperaturas
+-p91_MayoresPromedio
+-p92_MayorMenor
+-p93_ParesImpares
+
+## Actividad 15 - POO Clases y Objetos
+-p94_Empleado01
+-p95_Empleado02
+-p96_Empleado03
+-p97_Empleado04
