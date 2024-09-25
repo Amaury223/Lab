@@ -14,6 +14,7 @@ public class Empleado {
         Casado = casado;
     }
 
+    
     public String getNombre() {
         return Nombre;
     }

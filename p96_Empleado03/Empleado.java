@@ -6,6 +6,7 @@ public class Empleado {
     private String Nombre;
     private int Edad;
     
+    
     //Constructor
     public Empleado(){};
     public Empleado(String nombre, int edad) {

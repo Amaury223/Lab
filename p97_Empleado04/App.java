@@ -24,6 +24,7 @@ public class App {
             if (empleado.isCasado()) c++; else s++;
         }
 
+        
         System.out.println("Hombres : " + h);
         System.out.println("Mujeres : " + m);
         System.out.println("Solteros: " + s);

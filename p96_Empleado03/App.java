@@ -4,6 +4,7 @@ public class App {
     public static void main(String[] args) {
         System.out.print("\033[H\033[2J"); System.out.flush();
 
+        
         Empleado empleado1 = new Empleado("Juan Perez",25);
         Empleado empleado2 = new Empleado("Nepomuseno",1);
         Empleado empleado3 = new Empleado();
