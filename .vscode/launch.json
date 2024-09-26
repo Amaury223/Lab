@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p93_ParesImpares",
+            "request": "launch",
+            "mainClass": "p93_ParesImpares",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p92_MayorMenor",
+            "request": "launch",
+            "mainClass": "p92_MayorMenor",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "p97_Empleado04.App",
