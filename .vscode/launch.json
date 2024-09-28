@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "p100_Articulo.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "p99_Rectangulo.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "p98_Circulo.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
             "name": "p93_ParesImpares",
             "request": "launch",
             "mainClass": "p93_ParesImpares",
