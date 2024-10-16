@@ -1,6 +1,7 @@
 package p112_ControlVentas;
 
 import java.util.ArrayList;
+
 public class Cliente {
     private String Nombre;
     private String Domicilio;
@@ -13,24 +14,20 @@ public class Cliente {
         Domicilio = domicilio;
         Correo = correo;
     }
-
-    public void agregarVenta(Venta venta){
+    public void agregarVenta(Venta venta ) {
         Ventas.add(venta);
     }
-    
-
     public ArrayList<Venta> getVentas() {
         return Ventas;
     }
-
-    public double getTotalVenta(){
+    public double getTotal() {
         double total = 0;
-        for (Venta venta : Ventas){
+        for (Venta venta : Ventas) {
             total = total + venta.getTotalVenta();
         }
         return total;
     }
-
-    
-    
+    public String toString() {
+        return "Cliente [Nombre = " + Nombre + ", Domicilio = " + Domicilio + ", Correo = " + Correo + ", Ventas = " + Ventas.size() + ", Total = " + getTotal() + "]";
+    }
 }
