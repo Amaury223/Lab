@@ -8,6 +8,48 @@
             "type": "java",
             "name": "App",
             "request": "launch",
+            "mainClass": "p103_ClienteFactura.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "p102_AutorLibro.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "p101_TrabajoPersona.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "p110_CuentaBancariaV1.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "p107_Forma.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "p106_Persona.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
             "mainClass": "p100_Articulo.App",
             "projectName": "Lab_25d572c4"
         },

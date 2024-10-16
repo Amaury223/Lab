@@ -39,4 +39,5 @@ public class Rectangulo {
     public String toString() {
         return "Rectangulo [Largo=" + Largo + ", Ancho=" + Ancho + "]";
     }   
+    
 }

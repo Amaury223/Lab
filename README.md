@@ -151,3 +151,17 @@
 -p98_Circulo
 -p99_Rectangulo
 -p100_Articulo
+
+## Actividad 16
+-p101_TrabajoPersona
+-p102_AutorLibro
+-p103_ClienteFactura
+
+## Practica 9 - POO Composición
+-p104_PuntoCirculo
+-p105_PuntoTriangulo
+
+## Actividad 17 -POO - Herencia y Abstracción
+-p106_Persona
+-p107_Forma
+
