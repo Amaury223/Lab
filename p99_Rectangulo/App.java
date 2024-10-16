@@ -18,6 +18,7 @@ public class App {
         System.out.println("Ancho : " + r1.getAncho());
         System.out.printf("El Area es : %.2f\n", r1.getArea());
         System.out.printf("El Perimetro es : %.2f\n", r1.getPerimetro());
+
         
     }
 }
