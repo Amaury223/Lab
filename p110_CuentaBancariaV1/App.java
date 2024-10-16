@@ -44,6 +44,8 @@ public class App {
             total = total + cte.getCuenta().getSaldo();
         }
 
+
+        
         System.out.printf("Total de dinero en el banco %,.2f", total);
     }
 }
