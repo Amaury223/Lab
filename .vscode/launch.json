@@ -8,6 +8,34 @@
             "type": "java",
             "name": "App",
             "request": "launch",
+            "mainClass": "p117_FiguraGeometrica.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "p116_Juego.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "p115_Telefono.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "p114_Animal.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
             "mainClass": "p113_SegundoExamenParcial.App",
             "projectName": "Lab_25d572c4"
         },
