@@ -8,6 +8,20 @@
             "type": "java",
             "name": "App",
             "request": "launch",
+            "mainClass": "p119_Organismo.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "p118_Calculadora.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
             "mainClass": "p117_FiguraGeometrica.App",
             "projectName": "Lab_25d572c4"
         },
