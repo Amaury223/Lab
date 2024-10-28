@@ -8,6 +8,55 @@
             "type": "java",
             "name": "App",
             "request": "launch",
+            "mainClass": "p127_MiExcepcion.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p126_Excepcion6",
+            "request": "launch",
+            "mainClass": "p126_Excepcion6",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p125_Excepcion4",
+            "request": "launch",
+            "mainClass": "p125_Excepcion4",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p124_Excepcion3",
+            "request": "launch",
+            "mainClass": "p124_Excepcion3",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p123_Excepcion3",
+            "request": "launch",
+            "mainClass": "p123_Excepcion3",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p122_Excepcion2",
+            "request": "launch",
+            "mainClass": "p122_Excepcion2",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p121_Excepcion1",
+            "request": "launch",
+            "mainClass": "p121_Excepcion1",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
             "mainClass": "p120_Vehiculo.App",
             "projectName": "Lab_25d572c4"
         },
