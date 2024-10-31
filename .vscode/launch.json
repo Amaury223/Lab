@@ -8,6 +8,34 @@
             "type": "java",
             "name": "App",
             "request": "launch",
+            "mainClass": "p131_ExcepcionTemperatura.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p130_ExcepcionEdades",
+            "request": "launch",
+            "mainClass": "p130_ExcepcionEdades",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p129_ExcepcionDulces",
+            "request": "launch",
+            "mainClass": "p129_ExcepcionDulces",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p128_ExcepcionRaiz",
+            "request": "launch",
+            "mainClass": "p128_ExcepcionRaiz",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
             "mainClass": "p127_MiExcepcion.App",
             "projectName": "Lab_25d572c4"
         },
