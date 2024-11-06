@@ -8,6 +8,27 @@
             "type": "java",
             "name": "App",
             "request": "launch",
+            "mainClass": "p139_ArchivoEstudiante.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p138_ArchivoMaterias",
+            "request": "launch",
+            "mainClass": "p138_ArchivoMaterias",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p137_ArchivoMunicipios",
+            "request": "launch",
+            "mainClass": "p137_ArchivoMunicipios",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
             "mainClass": "p136_Archivos5.App",
             "projectName": "Lab_25d572c4"
         },
