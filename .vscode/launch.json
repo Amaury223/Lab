@@ -8,6 +8,27 @@
             "type": "java",
             "name": "App",
             "request": "launch",
+            "mainClass": "p136_Archivos5.App",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p132_Archivos1",
+            "request": "launch",
+            "mainClass": "p132_Archivos1",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p135_Archivos4",
+            "request": "launch",
+            "mainClass": "p135_Archivos4",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
             "mainClass": "p131_ExcepcionTemperatura.App",
             "projectName": "Lab_25d572c4"
         },

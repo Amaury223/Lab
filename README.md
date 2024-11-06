@@ -208,3 +208,14 @@
 -p129_ExcepcionDulces
 -p130_ExcepcionEdades
 -p131_ExcepcionTemperatura
+
+## Actividad 23 - Manejo de archivos
+-p132_Archivos1
+-p133_Archivos2
+-p134_Archivos3 ... clase 1
+-p135_Archivos4 ... clase 2
+-p136_Archivos5 ... clase 3
+
+## 
+-p135_Archivos4
+-p135_Archivos4
