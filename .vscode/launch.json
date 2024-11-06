@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p142_LeyDeNewtonGUI",
+            "request": "launch",
+            "mainClass": "p142_LeyDeNewtonGUI",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p141_AreaTrianguloGUI",
+            "request": "launch",
+            "mainClass": "p141_AreaTrianguloGUI",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
+            "name": "p140_HolaMundoGUI",
+            "request": "launch",
+            "mainClass": "p140_HolaMundoGUI",
+            "projectName": "Lab_25d572c4"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "p139_ArchivoEstudiante.App",
