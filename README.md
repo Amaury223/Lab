@@ -225,3 +225,13 @@
 -140_HolaMundoGUI
 -p141_AreaTrianguloGUI
 -p142_LeyDeNewtonGUI
+
+## Práctica 15
+-p143_PagaTrabjador
+-p144_Temperaturas
+
+## Actividad 25
+-p145_EstudianteGUI_V1
+
+## Actividad 26
+-p146_EstudianteGUI_V2
