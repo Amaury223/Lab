@@ -3,12 +3,12 @@ package p147_TercerExamenParcial;
 import java.io.Serializable;
 
 public class Jugador implements Serializable{
-    private String nombre; //Nombre del jugador
-    private int edad; //Edad del jugador 
-    private char sexo; //Sexo del jugador
-    private String estadocivil; //Estado civil del jugador
-    private String descripcion; //Descripción del puesto del jugador
-    private double salario; //Salario del jugador 
+    private String nombre;
+    private int edad;
+    private char sexo;
+    private String estadocivil;
+    private String descripcion;
+    private double salario; 
 
     public Jugador() {}
 

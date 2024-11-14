@@ -9,7 +9,7 @@ import java.io.File;
 import java.awt.*;
 
 public class App extends JFrame implements ActionListener {
-    ArrayList <Jugador> datos;
+    ArrayList<Jugador> datos;
     JMenuBar menuBar;
     JMenu mnuArchivo, mnuAyuda;
     JMenuItem smnAbrir, smnGuardar, smnSalir, smnAcercade;
@@ -23,9 +23,10 @@ public class App extends JFrame implements ActionListener {
     JTextField txtNombre, txtEdad, txtSexo, txtEstado_Civil, txtDescripcion, txtSalario;
     JButton btnAgregar, btnGrabar;
     JFileChooser fchArchivo;
-    
+
     public App() {
         super("Procesa datos de Jugadores");
+        lblDatos = new JLabel("<html>Jaime Amaury Hernandez Frayre</html>", JLabel.CENTER);
         menuBar = new JMenuBar();
         setJMenuBar(menuBar);
         mnuArchivo = new JMenu("Archivo");
@@ -50,12 +51,10 @@ public class App extends JFrame implements ActionListener {
         jdlAcercade.setSize(400, 250);
         jdlAcercade.setModal(true);
         jdlAcercade.setLocationRelativeTo(null);
-        lblDatos.setFont(new Font("Arial",Font.BOLD, 18));
+        lblDatos.setFont(new Font("Arial", Font.BOLD, 18));
         jdlAcercade.add(lblDatos);
 
-
-
-        setLayout(new GridLayout(3, 1)); 
+        setLayout(new GridLayout(3, 1));
         pnlTabla = new JPanel();
         pnlTabla.setLayout(new BoxLayout(pnlTabla, BoxLayout.X_AXIS));
         getContentPane().add(pnlTabla);
@@ -65,13 +64,14 @@ public class App extends JFrame implements ActionListener {
         pnlTabla.add(spane);
 
         table = new JTable();
-        table.getTableHeader().setBackground(Color.CYAN);
+        table.getTableHeader().setBackground(Color.green);
         table.getTableHeader().setForeground(Color.black);
 
         spane.setViewportView(table);
 
         modelo = new DefaultTableModel();
-        modelo.setColumnIdentifiers(new String[]{"Nombre","Edad","Sexo","Estado Civil", "Descripcion", "Salario"});
+        modelo.setColumnIdentifiers(
+                new String[] { "Nombre", "Edad", "Sexo", "Estado Civil", "Descripcion", "Salario" });
 
         table.setModel(modelo);
 
@@ -117,7 +117,7 @@ public class App extends JFrame implements ActionListener {
         pnlDatos.add(lblSalario);
         pnlDatos.add(txtSalario);
 
-        //Toma el renglón 
+        
         table.addMouseListener(new MouseAdapter() {
             public void mousePressed(MouseEvent e) {
                 int ren = table.rowAtPoint(e.getPoint());
@@ -146,12 +146,12 @@ public class App extends JFrame implements ActionListener {
         txtSalario.setText(Double.toString(jugador.getSalario()));
     }
 
-
     public void cargarDatos() {
-        DefaultTableModel dm = (DefaultTableModel)table.getModel();
-        while(dm.getRowCount() > 0) dm.removeRow(0);
-        Object[] obj = new Object[6]; 
-        for(int i = 0; i < datos.size(); i++) {
+        DefaultTableModel dm = (DefaultTableModel) table.getModel();
+        while (dm.getRowCount() > 0)
+            dm.removeRow(0);
+        Object[] obj = new Object[6];
+        for (int i = 0; i < datos.size(); i++) {
             obj[0] = datos.get(i).getNombre();
             obj[1] = datos.get(i).getEdad();
             obj[2] = datos.get(i).getSexo();
@@ -164,14 +164,14 @@ public class App extends JFrame implements ActionListener {
 
     public void activarCampos(boolean actdes) {
         for (Component cp : pnlDatos.getComponents())
-        if (cp instanceof JTextField)
-            cp.setEnabled(actdes);
+            if (cp instanceof JTextField)
+                cp.setEnabled(actdes);
     }
 
     public void limpiarCampos() {
         for (Component cp : pnlDatos.getComponents())
             if (cp instanceof JTextField)
-                ((JTextField)cp).setText("");
+                ((JTextField) cp).setText("");
     }
 
     public void guardarCampos() {
@@ -182,46 +182,48 @@ public class App extends JFrame implements ActionListener {
         jugador.setEstadocivil(txtEstado_Civil.getText());
         jugador.setDescripcion(txtDescripcion.getText());
         jugador.setSalario(Double.parseDouble(txtSalario.getText()));
-        datos.add(jugador); 
+        datos.add(jugador);
         cargarDatos();
     }
 
     public void actionPerformed(ActionEvent e) {
-        if(e.getSource() == smnSalir) dispose();
-        else if(e.getSource() == smnAcercade) jdlAcercade.setVisible(true);
-        else if(e.getSource()==btnAgregar) {
+        if (e.getSource() == smnSalir)
+            dispose();
+        else if (e.getSource() == smnAcercade)
+            jdlAcercade.setVisible(true);
+        else if (e.getSource() == btnAgregar) {
             activarCampos(true);
             limpiarCampos();
             txtNombre.requestFocus();
             btnAgregar.setEnabled(false);
             btnGrabar.setEnabled(true);
-        } else if(e.getSource()==btnGrabar) {
+        } else if (e.getSource() == btnGrabar) {
             guardarCampos();
             limpiarCampos();
             activarCampos(false);
             btnGrabar.setEnabled(false);
             btnAgregar.setEnabled(true);
-        } else if(e.getSource()== smnGuardar) {
+        } else if (e.getSource() == smnGuardar) {
             fchArchivo = new JFileChooser();
-            fchArchivo.setFileFilter(new FileNameExtensionFilter("Archivos de datos (.dat)", new String[]{"dat"}));
+            fchArchivo.setFileFilter(new FileNameExtensionFilter("Archivos de datos (.dat)", new String[] { "dat" }));
             fchArchivo.setCurrentDirectory(new File("."));
             int res = fchArchivo.showSaveDialog(this);
             File archivo = fchArchivo.getSelectedFile();
             if (res == JFileChooser.APPROVE_OPTION) {
                 File arch = fchArchivo.getSelectedFile();
                 try {
-                    Util.grabarDatos(arch.getName(),datos);
+                    Util.grabarDatos(arch.getName(), datos);
                     JOptionPane.showMessageDialog(this, "Datos Grabados en : " +
-                        arch.getName(),"Correcto" ,JOptionPane.INFORMATION_MESSAGE);
+                            arch.getName(), "Correcto", JOptionPane.INFORMATION_MESSAGE);
                 } catch (Exception e2) {
                     JOptionPane.showMessageDialog(this, "Error al procesar el archivo",
-                        "Error",JOptionPane.ERROR_MESSAGE);
+                            "Error", JOptionPane.ERROR_MESSAGE);
                 }
             }
         } else if (e.getSource() == smnAbrir) {
             fchArchivo = new JFileChooser();
             fchArchivo.setCurrentDirectory(new File("."));
-            fchArchivo.setFileFilter(new FileNameExtensionFilter("Archivos de datos (.dat)", new String[]{"dat"}));
+            fchArchivo.setFileFilter(new FileNameExtensionFilter("Archivos de datos (.dat)", new String[] { "dat" }));
             int res = fchArchivo.showOpenDialog(null);
             File archivo = fchArchivo.getSelectedFile();
             if (res == JFileChooser.APPROVE_OPTION) {
@@ -231,7 +233,7 @@ public class App extends JFrame implements ActionListener {
                     this.cargarDatos();
                 } catch (Exception e2) {
                     JOptionPane.showMessageDialog(this, "Error al procesar el archivo",
-                        "Error",JOptionPane.ERROR_MESSAGE);
+                            "Error", JOptionPane.ERROR_MESSAGE);
                 }
             }
         }
@@ -243,7 +245,7 @@ public class App extends JFrame implements ActionListener {
         app.setLocationRelativeTo(null);
         app.setVisible(true);
         app.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        app.datos = new ArrayList<>(); 
+        app.datos = new ArrayList<>();
         app.activarCampos(false);
     }
 }
