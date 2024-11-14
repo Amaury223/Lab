@@ -50,7 +50,7 @@ public class App extends JFrame implements ActionListener {
         jdlAcercade.setSize(400, 250);
         jdlAcercade.setModal(true);
         jdlAcercade.setLocationRelativeTo(null);
-       
+        lblDatos = new JLabel("<html>",JLabel.CENTER);
         lblDatos.setFont(new Font("Arial",Font.BOLD, 18));
         jdlAcercade.add(lblDatos);
 
